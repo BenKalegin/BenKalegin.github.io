@@ -6298,7 +6298,7 @@ button.bg-dark:focus {
 
 .rounded-snapshot {
   border-radius: 2% !important;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .rounded-pill {
