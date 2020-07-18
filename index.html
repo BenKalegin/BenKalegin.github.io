@@ -29,6 +29,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cloud-diagram">cloud diagram</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#log-aggregator">log aggregator</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#big-o-performance-estimation">big O estimator</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#optimized-task-queue">optmized task queue</a></li>
                 </ul>
             </div>
         </nav>
@@ -121,6 +122,22 @@
                             <span class="d-none d-lg-block"><img class="img-fluid rounded-snapshot mx-auto mb-2" src="assets/img/bigoperformanceestimator.jpg" alt="" /></span>
                             <p>Given a c# function, runs performance benchmarks on different number of entries and makes estimation of limited performance behavior 
                                 in terms of Big O notation.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+           <!-- optimized task queue -->
+           <section class="resume-section" id="optimized-task-queue">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">optimized .net standard task queue <a class="social-icon" href="https://github.com/BenKalegin/optimized-task-queue"><i class="fab fa-github"></i></a></h2>
+                    <h4>LIVE <a href="https://benkalegin.github.io/BigOPerformanceEstimation/">DEMO</a></h4>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <span class="d-none d-lg-block"><img class="img-fluid rounded-snapshot mx-auto mb-2" src="assets/img/optimized-task-queue.jpg" alt="" /></span>
+                            <p>Want to await on hundreds or thousands remote connections from c# core application? 
+                                Use this queue to replace <code>Task.WhenAny(...)</code> that will take O(N<sup>2</sup>) time to await and delete task from array, where N denotes number of tasks.</p>
                         </div>
                     </div>
                 </div>
